@@ -89,7 +89,7 @@ Provide a list of the key stakeholders and partners involved in the TEF Site. In
 Provide contact details for those responsible for the TEF Site or who can provide more information to collaborators or users.
 
 - **Site Coordinator**: Andrés Meléndez Imaz, andres.melendez@list.lu
-- **Technical Support**: [Andrés Meléndez Imaz, andres.melendez@list.lu]
+- **Technical Support**: Andrés Meléndez Imaz, andres.melendez@list.lu
 - **General Inquiries**: [Thomas Tamisier. thomas.tamisier@list.lu]
 
 ## Additional Information
