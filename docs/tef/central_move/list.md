@@ -13,7 +13,7 @@ The LIST TEF Site is located in Belval, Luxembourg and is dedicated to advancing
 - **Exploratory data Analysis**: Assessing the fit for purpose of existing data sets of the customer. The customer gets an analysis this set of data: i.e. the data fitness for their purpose and its visualization either in the form of charts or of a dashboard.
 - **AI sandbox**: Supporting decision-making for cities to select a LLM for their chatbot or improve the existing.
 - **Large-Scale visualization**: A customized service to allow for the exploration and analysis of large and complex datasets, supporting collaborative decision-making.
-- **Proof-of-concept**: [Tailored development of AI and data analytic proof-of-concept.]
+- **Proof-of-concept**: Tailored development of AI and data analytic proof-of-concept.
 - **Smart cities club Luxembourg**: [Smart cities club Luxembourg network of experts in Smart cities involving city representatives for reflection and common proposal around their challenges and needs.]
 - **Local Digital Twin Electromobility toolbox**: [A true digital twin in electromobility to determine the best location for BEV charging station. This LDT can be customised on demand according to specific cities needs and challenges.]
 - **ViPV Simulator**: [A simulator tool to quantify real potential of PV energy generation by running vehicles using weather and built-up data, that can be used by e.g. public transportation providers to support their decisionmaking towards adopting on-board photovoltaic technology.]
