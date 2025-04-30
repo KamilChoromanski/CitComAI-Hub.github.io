@@ -10,7 +10,7 @@ The LIST TEF Site is located in Belval, Luxembourg and is dedicated to advancing
 
 - **Digital maturity Assessment**: Guidance and support to cities and AI innovators in scoping the best-fitted AI approach, according to their needs, context and maturity. This service, which outcome is a tailored development plan for a proofof-concept, is delivered through two participatory working sessions with relevant profiles of the customer.
 - **Digital Twin Scoping**: Guidance and support to cities and AI innovators in scoping the best-fitted DT approach, according to their needs, context and maturity. This service, which outcome is a tailored development plan for a proofof-concept, is delivered through two participatory working sessions with relevant profile of the customer.
-- **Exploratory data Analysis**: [Assessing the fit for purpose of existing data sets of the customer. The customer gets an analysis this set of data: i.e. the data fitness for their purpose and its visualization either in the form of charts or of a dashboard.]
+- **Exploratory data Analysis**: Assessing the fit for purpose of existing data sets of the customer. The customer gets an analysis this set of data: i.e. the data fitness for their purpose and its visualization either in the form of charts or of a dashboard.
 - **AI sandbox**: [Supporting decision-making for cities to select a LLM for their chatbot or improve the existing.]
 - **Large-Scale visualization**: [A customized service to allow for the exploration and analysis of large and complex datasets, supporting collaborative decision-making.]
 - **Proof-of-concept**: [Tailored development of AI and data analytic proof-of-concept.]
