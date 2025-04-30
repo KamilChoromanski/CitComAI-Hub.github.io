@@ -72,7 +72,7 @@ Provide a high-level overview of the architecture of the TEF Site, including the
 
 Describe the relevant datasets available at the site
 
-- **Dataset_1**: Local weather and WBGT in Mechelen (https://app.swaggerhub.com/apis-docs/bmesuere/VLINDER/1.0)
+- **Dataset_1**: Local weather and WBGT in Mechelen [link](https://app.swaggerhub.com/apis-docs/bmesuere/VLINDER/1.0)
 - **Dataset_2**: Parking occupation of parking garages in Mechelen (privatly owned data - can only be shared with consent of owner) 
 - **Dataset_3**: Count data on several locations in Mechelen where the passing amount of pedestrians, cyclists, cars and trucks are measured ([https://documenter.getpostman.com/view/8210376/TWDRqyaV](https://documenter.getpostman.com/view/8210376/TWDRqyaV))
 
