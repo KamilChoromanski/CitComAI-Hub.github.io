@@ -90,7 +90,7 @@ Provide contact details for those responsible for the TEF Site or who can provid
 
 - **Site Coordinator**: Andrés Meléndez Imaz, andres.melendez@list.lu
 - **Technical Support**: Andrés Meléndez Imaz, andres.melendez@list.lu
-- **General Inquiries**: [Thomas Tamisier. thomas.tamisier@list.lu]
+- **General Inquiries**: Thomas Tamisier, thomas.tamisier@list.lu
 
 ## Additional Information
 
