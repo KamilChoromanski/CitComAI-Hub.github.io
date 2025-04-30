@@ -82,7 +82,7 @@ Provide a list of the key stakeholders and partners involved in the TEF Site. In
 
 - **City of Differdange**: [The city provides data about their current EV charging and PV generation infrastructure.]
 - **TICE**: [Bus operator company for the South of Luxembourg country]
-- **SWIO**: [Charging Station provider for the city of Esch-sur-Alzette]
+- **SWIO**: Charging Station provider for the city of Esch-sur-Alzette.
 
 ## Contact Information
 
