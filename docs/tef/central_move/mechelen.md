@@ -23,7 +23,7 @@ List the services available at the TEF Site related to the CitCom.ai Services Ca
 Describe the key infrastructure components available at the TEF Site, including data platforms, local digital twins, specific hardware, IoT platforms, or any other relevant technologies.
 
 - **Data Platforms**: Sensor data platform (no open data portal yet) and [GEO data platform](https://portaal-mechelen.opendata.arcgis.com/search)
-- **Local Digital Twins**: (https://sif.sensr.ai/map) - This map provides an overview of all the active sensors in Mechelen
+- **Local Digital Twins**: This [map](https://sif.sensr.ai/map) provides an overview of all the active sensors in Mechelen
 - **Specific Hardware**: 1 CCTV camera which can be placed on the public domain. Two Telraam sensors which can be placed anywhere in the city on the interior side of a building
 - **IoT Platforms**: Sensor data platform (no open data portal yet)
 - **Visualization platforms**: SaaS environment called 'Mobilize' a product of Cegeka which provides floating car data
