@@ -103,7 +103,7 @@ The TEF Site offers unique capabilities in on edge-computing on mobility related
 
 Link to any relevant documentation or resources, such as technical specifications, API documentation, or guides for using services at the TEF Site.
 
-- [Documentation Link 1]([#](https://www.mechelen.be/data))
+- [Documentation Link 1](https://www.mechelen.be/data)
 
 ---
 
