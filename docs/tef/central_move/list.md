@@ -72,7 +72,7 @@ Provide a high-level overview of the architecture of the TEF Site, including the
 
 Describe the relevant datasets available at the site
 
-- **Dataset_1**: [SWIO Charging Station data]
+- **Dataset_1**: SWIO Charging Station data
 - **Dataset_2**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
 - **Dataset_3**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
 
