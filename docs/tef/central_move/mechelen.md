@@ -4,10 +4,6 @@ title: Mechelen
 
 ## Overview
 
-_Provide a brief overview of the TEF Site, including its location, objectives, and role within the CitCom.ai ecosystem. Describe any relevant background information that stakeholders might find helpful._
-
-Example:
-
 The TEF Site is located in Mechelen, Belgium and is dedicated to advancing research and development in mobility. This site provides local personel who will help provide space on the public domain to test state-of-the-art infrastructure and is a key site in the CitCom.ai project, facilitating collaboration between cities and comunities, industrial partners (AI innovators) and research institutions.
 
 ## Services Offered
@@ -27,7 +23,6 @@ Describe the key infrastructure components available at the TEF Site, including 
 - **Specific Hardware**: 1 CCTV camera which can be placed on the public domain. Two Telraam sensors which can be placed anywhere in the city on the interior side of a building
 - **IoT Platforms**: Sensor data platform (no open data portal yet)
 - **Visualization platforms**: SaaS environment called 'Mobilize' a product of Cegeka which provides floating car data
-- **Other**: [Any other relevant infrastructure to showcase]
 
 <table>
   <tr>
@@ -82,7 +77,7 @@ Provide a list of the key stakeholders and partners involved in the TEF Site. In
 
 - **Stakeholder 1**: Cronos Public Services: Private company specialized in a number ICT related skillsets
 - **Stakeholder 2**: IGEMO: Intercommunal regonal public organisation in which Mechelen is situated
-- **Stakeholder 3**: 
+- **Stakeholder 3**: imec: Worldleader in microchipresearch, as chiplabo of the world
 
 ## Contact Information
 
@@ -92,12 +87,9 @@ Provide contact details for those responsible for the TEF Site or who can provid
 - **Technical Support**: Benjamin Vermeulen - benjamin.vermeulen@mechelen.be
 - **General Inquiries**: data@mechelen.be
 
-## Additional Information
+<!-- ## Additional Information
 
-Any other relevant information that might be useful to collaborators or developers working with the TEF Site, such as specific protocols, access instructions, or unique capabilities.
-
-Example:
-The TEF Site offers unique capabilities in on edge-computing on mobility related sensors, and it is open to collaboration with other EU projects in the area of Edge-AI technology.
+Any other relevant information that might be useful to collaborators or developers working with the TEF Site, such as specific protocols, access instructions, or unique capabilities.-->
 
 ## Documentation and Resources
 
@@ -105,7 +97,3 @@ Link to any relevant documentation or resources, such as technical specification
 
 - [Documentation Link 1](https://www.mechelen.be/data)
 
----
-
-!!! info
-    This page is part of the documentation hub for the CitCom.ai project. Please ensure that the information is up-to-date and accurate.
