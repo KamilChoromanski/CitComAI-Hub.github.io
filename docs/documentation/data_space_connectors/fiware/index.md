@@ -41,7 +41,7 @@ Check out the [examples/kind_minimal_ds_local exmple](https://github.com/CitComA
 - FDS Connector B (Consumer): Entity that only consumes data from the data space.
 
 <figure markdown>
-  ![FIWARE minimal data space](img/minimum_dataspace_arch.png){ loading=lazy }
+  ![FIWARE minimal data space](img/minimum_dataspace_arch.svg){ loading=lazy }
 </figure>
 
 For further details and to get started, please visit the [repository on GitHub](https://github.com/CitComAI-Hub/Minimum_Viable_DataSpace_Infrastructure).
