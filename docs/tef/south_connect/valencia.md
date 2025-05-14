@@ -4,19 +4,20 @@ title: Valencia
 
 ## Overview
 
-_Provide a brief overview of the TEF Site, including its location, objectives, and role within the CitCom.ai ecosystem. Describe any relevant background information that stakeholders might find helpful._
-
-Example:
-
-The [TEF Site Name] is located in [City, Country] and is dedicated to advancing research and development in [relevant domain]. This site is equipped with state-of-the-art infrastructure and is a key site in the CitCom.ai project, facilitating collaboration between cities and comunities, industrial partners (AI innovators) and research institutions.
+The Valencia TEF site, part of the South Supernode, supports AI-driven innovations in pollution management, noise monitoring, waste and water management, urban development, and tourism. Led by the Valencia City Council (VALE) and València Innovation Capital (LNAV), the TEF provides essential physical and virtual infrastructures, smart city datasets, ecosystem engagement, algorithm expertise, and regulatory compliance support. Key facilities include La Harinera and Las Naves, both serving as innovation hubs, while a citywide sensor network and the VLCi Data Platform offer real-time and historical data for AI experimentation. 
 
 ## Services Offered
 
-List the services available at the TEF Site related to the CitCom.ai Services Catalog. Provide a brief description of each service, and include any relevant links or documentation.
+Valencia stands at the forefront of AI innovation within the South Supernode, offering a unique combination of resources and expertise. Key assets include the Las Naves facilities, which foster ecosystem engagement and collaboration, and the Urban Sandbox for AI, which supports real-world testing and regulatory compliance. The city's universities drive AI algorithm creation and validation, while S2Grupo provides specialized cybersecurity services. Additionally, the VLCi Data Platform offers access to a rich array of urban data, and the collaborative environment facilitates use case scoping and definition for impactful AI solutions. 
 
-- **Service 1**: [Description of Service 1]
-- **Service 2**: [Description of Service 2]
-- **Service 3**: [Description of Service 3]
+- **Service 1: Dissemination and communication of AI activities**   <br>
+  This service focuses on promoting the achievements of the Valencia TEF through events such as workshops, webinars, and presentations. It attracts stakeholders and fosters a community of interest, showcasing AI innovations effectively.
+
+- **Service 2: Development and testing of AI algorithms**   <br>
+  The public universities within the consortium offer comprehensive development and testing of AI algorithms, with a focus on data privacy and system optimization, for stakeholders like startups and research institutions.
+  
+- **Service 3: Valencia VLCi Platform and datasets**   <br>
+  For CitCom.ai project, an independent instance of the VLCi platform (Valencia Urban Platform) has been created and shared with the partners with the aim of testing and experimenting in a controlled environment not only restricted to the partners but also to AI     innovators. A guidelines manual has been created for that purpose. 
 
 ## Infrastructure Components
 

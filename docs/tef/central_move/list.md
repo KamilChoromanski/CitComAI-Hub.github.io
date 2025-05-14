@@ -4,19 +4,20 @@ title: Luxembourg
 
 ## Overview
 
-_Provide a brief overview of the TEF Site, including its location, objectives, and role within the CitCom.ai ecosystem. Describe any relevant background information that stakeholders might find helpful._
-
-Example:
-
-The [TEF Site Name] is located in [City, Country] and is dedicated to advancing research and development in [relevant domain]. This site is equipped with state-of-the-art infrastructure and is a key site in the CitCom.ai project, facilitating collaboration between cities and comunities, industrial partners (AI innovators) and research institutions.
+The LIST TEF Site is located in Belval, Luxembourg and is dedicated to advancing research and development in Digital Twin technologies. This site is equipped with state-of-the-art infrastructure and is a key site in the CitCom.ai project, facilitating collaboration between cities and comunities, industrial partners (AI innovators) and research institutions.
 
 ## Services Offered
 
-List the services available at the TEF Site related to the CitCom.ai Services Catalog. Provide a brief description of each service, and include any relevant links or documentation.
-
-- **Service 1**: [Description of Service 1]
-- **Service 2**: [Description of Service 2]
-- **Service 3**: [Description of Service 3]
+- **Digital maturity Assessment**: Guidance and support to cities and AI innovators in scoping the best-fitted AI approach, according to their needs, context and maturity. This service, which outcome is a tailored development plan for a proofof-concept, is delivered through two participatory working sessions with relevant profiles of the customer.
+- **Digital Twin Scoping**: Guidance and support to cities and AI innovators in scoping the best-fitted DT approach, according to their needs, context and maturity. This service, which outcome is a tailored development plan for a proofof-concept, is delivered through two participatory working sessions with relevant profile of the customer.
+- **Exploratory data Analysis**: Assessing the fit for purpose of existing data sets of the customer. The customer gets an analysis this set of data: i.e. the data fitness for their purpose and its visualization either in the form of charts or of a dashboard.
+- **AI sandbox**: Supporting decision-making for cities to select a LLM for their chatbot or improve the existing.
+- **Large-Scale visualization**: A customized service to allow for the exploration and analysis of large and complex datasets, supporting collaborative decision-making.
+- **Proof-of-concept**: Tailored development of AI and data analytic proof-of-concept.
+- **Smart cities club Luxembourg**: Smart cities club Luxembourg network of experts in Smart cities involving city representatives for reflection and common proposal around their challenges and needs.
+- **Local Digital Twin Electromobility toolbox**: A true digital twin in electromobility to determine the best location for BEV charging station. This LDT can be customised on demand according to specific cities needs and challenges.
+- **ViPV Simulator**: A simulator tool to quantify real potential of PV energy generation by running vehicles using weather and built-up data, that can be used by e.g. public transportation providers to support their decisionmaking towards adopting on-board photovoltaic technology.
+- **Optimal EV**: A service to assess the opportunity and feasibility of solar panel on fleet.
 
 ## Infrastructure Components
 
@@ -71,7 +72,7 @@ Provide a high-level overview of the architecture of the TEF Site, including the
 
 Describe the relevant datasets available at the site
 
-- **Dataset_1**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
+- **Dataset_1**: SWIO Charging Station data
 - **Dataset_2**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
 - **Dataset_3**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
 
@@ -79,17 +80,17 @@ Describe the relevant datasets available at the site
 
 Provide a list of the key stakeholders and partners involved in the TEF Site. Include any academic institutions, industry collaborators, and other stakeholders.
 
-- **Stakeholder 1**: [Name and description of the stakeholder, e.g., university, research institute, industry partner]
-- **Stakeholder 2**: [Description]
-- **Stakeholder 3**: [Description]
+- **City of Differdange**: The city provides data about their current EV charging and PV generation infrastructure.
+- **TICE**: Bus operator company for the South of Luxembourg country.
+- **SWIO**: Charging Station provider for the city of Esch-sur-Alzette.
 
 ## Contact Information
 
 Provide contact details for those responsible for the TEF Site or who can provide more information to collaborators or users.
 
-- **Site Coordinator**: [Name and contact details]
-- **Technical Support**: [Name and contact details]
-- **General Inquiries**: [Name and contact details]
+- **Site Coordinator**: Andrés Meléndez Imaz, andres.melendez@list.lu
+- **Technical Support**: Andrés Meléndez Imaz, andres.melendez@list.lu
+- **General Inquiries**: Thomas Tamisier, thomas.tamisier@list.lu
 
 ## Additional Information
 
@@ -109,3 +110,4 @@ Link to any relevant documentation or resources, such as technical specification
 
 !!! info
     This page is part of the documentation hub for the CitCom.ai project. Please ensure that the information is up-to-date and accurate.
+
