@@ -87,6 +87,8 @@ nav:
       - AI Toolkit: toolbox/ai_toolkit.md
       - MIMs Toolkit: toolbox/mims_toolkit.md
       - Other Tools: toolbox/other_toolkit.md
+  - FAQ:
+      - faq/index.md
 markdown_extensions:
   - def_list
   - attr_list
