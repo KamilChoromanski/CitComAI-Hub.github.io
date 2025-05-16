@@ -86,6 +86,7 @@ Provide contact details for those responsible for the TEF Site or who can provid
 - **Site Coordinator**: Roos Lowette - roos.lowette@mechelen.be
 - **Technical Support**: Benjamin Vermeulen - benjamin.vermeulen@mechelen.be
 - **General Inquiries**: data@mechelen.be
+- **TEF Belgium Coordinator**: Thomas De Meester - thomas.demeester@imec.be
 
 <!-- ## Additional Information
 
