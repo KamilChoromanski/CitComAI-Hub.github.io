@@ -89,6 +89,7 @@ nav:
       - Other Tools: toolbox/other_toolkit.md
   - FAQ:
       - faq/index.md
+      - Request changes: faq/pull_request_procedure.md
 markdown_extensions:
   - def_list
   - attr_list

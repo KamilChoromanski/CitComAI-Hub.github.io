@@ -1,7 +1,4 @@
----
-icon: material/help-circle-outline
-title: Pull Request Procedure
----
+# Request changes: Pull Request Procedure
 
 By default, Citcom.ai Hub is an open portal where anyone can publish changes. However, these changes must be made in a controlled manner through a review process ([*pull-request*](https://docs.github.com/pull-requests)).
 
