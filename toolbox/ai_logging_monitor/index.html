@@ -59,7 +59,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1812,6 +1821,96 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../faq/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2zm1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-14a4 4 0 0 0-4 4h2a2 2 0 0 1 2-2 2 2 0 0 1 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4"/></svg>
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/pull_request_procedure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Request changes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -2026,7 +2125,7 @@
 </ul>
 <h3 id="implementation">Implementation</h3>
 <p>The module has been implemented using WhyLogs and WhyLabs. <a href="https://whylabs.ai/whylogs">WhyLogs</a> is a logging library that captures various performance metrics, and <a href="https://whylabs.ai/whylogs">WhyLabs</a> is a platform that helps identify trends and potential issues.</p>
-<p><img alt="Logging interface" src="../img/logs.png" title="Logs" /></p>
+<p><a class="glightbox" href="../img/logs.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Logging interface" src="../img/logs.png" title="Logs" /></a></p>
 <h2 id="monitor-internal">Monitor (Internal)</h2>
 <p>The Monitor module is designed to track the performance of the classification model in production. Using charts, it provides a web interface that visualizes various performance metrics over a selected time range. The module utilizes a web framework for the backend, a database for data storage, and a charting library for creating interactive charts.</p>
 <h3 id="key-features_1">Key features</h3>
@@ -2055,7 +2154,7 @@
 </ul>
 <h3 id="implementation_1">Implementation</h3>
 <p>The module has been implemented using Flask and <a href="https://www.chartjs.org/">Chart.js</a>, a JavaScript library for creating interactive charts.</p>
-<p><img alt="Monitor interface module." src="../img/charts.png" /></p>
+<p><a class="glightbox" href="../img/charts.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Monitor interface module." src="../img/charts.png" /></a></p>
 <h2 id="alternatives">Alternatives</h2>
 <p>Additionally, other libraries and platforms were considered:</p>
 <ul>
@@ -2188,5 +2287,7 @@
         <script src="../../assets/js/data_catalog.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>

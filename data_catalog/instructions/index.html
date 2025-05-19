@@ -63,7 +63,16 @@
     
     
     
-  </head>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -1916,6 +1925,96 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../faq/" class="md-nav__link ">
+              
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2zm1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-14a4 4 0 0 0-4 4h2a2 2 0 0 1 2-2 2 2 0 0 1 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4"/></svg>
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/pull_request_procedure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Request changes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -2026,7 +2125,7 @@
 <h1 id="how-to-add-new-datasets">How to add new datasets?</h1>
 <p>To add new datasets to the data catalog, an automated request system has been enabled through GitHub Issues and <em>csv's</em> files. </p>
 <p>Each of the datasets that you want to add to the data catalog must be attached as a different <em>csv</em> file. The template for this file can be found at the following link: <a href="https://github.com/CitComAI-Hub/CitComAI-Hub.github.io/blob/main/templates/NEW_DATASET_TEMPLATE.csv">Dataset Template</a>.</p>
-<p><img alt="Plantilla de archivo csv" src="../img/dataset_template_empty.png" /></p>
+<p><a class="glightbox" href="../img/dataset_template_empty.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Plantilla de archivo csv" src="../img/dataset_template_empty.png" /></a></p>
 <h2 id="the-dataset-template">The Dataset Template</h2>
 <p>The dataset template is a file in <em>csv</em> format that can be divided into two parts depending on its content. </p>
 <p>The first part collects <strong>general information</strong> about the dataset:</p>
@@ -2116,36 +2215,36 @@
 </div>
 <h3 id="example-a-filled-template">Example: A filled template</h3>
 <p>The following image shows an example of a filled template:</p>
-<p><img alt="filled_template" src="../img/filled_template.png" /></p>
+<p><a class="glightbox" href="../img/filled_template.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="filled_template" src="../img/filled_template.png" /></a></p>
 <h2 id="making-the-request-github-issues">Making the request (GitHub Issues)</h2>
 <div class="admonition warning">
 <p class="admonition-title">A <a href="https://github.com/">GitHub</a> account is required.</p>
 </div>
 <p>To make the request to add new datasets to the data catalog, you must create an issue using the <em>New dataset request</em> template and follow the instructions.</p>
 <p>From the <a href="../">data catalog page</a> and clicking on the <code>Add New Datasets</code> button you will directly access to adding a new issue.</p>
-<p><img alt="Add new dataset" src="../img/1_new_dataset.png" /></p>
+<p><a class="glightbox" href="../img/1_new_dataset.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Add new dataset" src="../img/1_new_dataset.png" /></a></p>
 <p>In the Github Issues tab, click <code>Get started</code> in the <em>New dataset request</em> issue.</p>
-<p><img alt="new issue" src="../img/2_new_issue_dataset.png" /></p>
+<p><a class="glightbox" href="../img/2_new_issue_dataset.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="new issue" src="../img/2_new_issue_dataset.png" /></a></p>
 <p>This will be the template that you must fill out.</p>
-<p><img alt="issue template" src="../img/3_issue_template.png" /></p>
+<p><a class="glightbox" href="../img/3_issue_template.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="issue template" src="../img/3_issue_template.png" /></a></p>
 <h3 id="filling-the-issue">Filling the issue</h3>
 <ol>
 <li><strong>Add a Title</strong>: Only replace the <code>&lt;site_name&gt;</code> with the name of the site to which the dataset belongs (e.g. <code>Valencia</code>).</li>
 <li>
 <p><strong>Attach files</strong>: Select the <code>&gt; Add files here.</code> line and insert the <em>csv</em> by clicking on the paper clip in the top bar. <strong>All the files</strong> you attach must appear one under the other <strong>within this <em>Attached <em>csv</em> files</em> section</strong>.</p>
-<p><img alt="attach files" src="../img/4_attach_files.png" /></p>
+<p><a class="glightbox" href="../img/4_attach_files.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="attach files" src="../img/4_attach_files.png" /></a></p>
 </li>
 <li>
 <p><strong>Comments</strong>: If you have any comments you can add them in the corresponding section.</p>
 </li>
 <li>
 <p><strong>Submit new issue</strong>: Once everything is complete, publish the request.</p>
-<p><img alt="submit issue" src="../img/5_submit_issue.png" /></p>
+<p><a class="glightbox" href="../img/5_submit_issue.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="submit issue" src="../img/5_submit_issue.png" /></a></p>
 </li>
 </ol>
 <h3 id="reviewing-the-request">Reviewing the request</h3>
 <p>Submitted the request, it will be processed automatically. Notifying in the same issue the start of the process and ending with the closing of the issue and the creation of a pull-request with the requested changes. </p>
-<p><img alt="issue closed" src="../img/6_automatic_issue.png" /></p>
+<p><a class="glightbox" href="../img/6_automatic_issue.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="issue closed" src="../img/6_automatic_issue.png" /></a></p>
 <p>This pull request will be reviewed by the site administrators and, if everything is correct, it will be accepted and the information will be added to the data catalogue. If not, the user will be notified to make the necessary corrections.</p>
 
 
@@ -2310,5 +2409,7 @@
         <script src="../../assets/js/data_catalog.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
