@@ -87,6 +87,9 @@ nav:
       - AI Toolkit: toolbox/ai_toolkit.md
       - MIMs Toolkit: toolbox/mims_toolkit.md
       - Other Tools: toolbox/other_toolkit.md
+  - FAQ:
+      - faq/index.md
+      - Request changes: faq/pull_request_procedure.md
 markdown_extensions:
   - def_list
   - attr_list
@@ -130,6 +133,22 @@ plugins:
       enable_creation_date: true
       type: timeago
   - macros
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-glightbox
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
 extra:
   generator: false
   labels:
