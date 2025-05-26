@@ -54,8 +54,8 @@ Describe the key infrastructure components available at the TEF Site, including 
     <td><strong>Data Broker<strong></td>
     <td>
       {{ config.extra.labels.data_brokers.fiware }}<br>
-      <strong>- API:</strong> &lt;no_specified><br>
-      <strong>- Version:</strong> &lt;no_specified>
+      <strong>- API:</strong> {{config.extra.labels.api_brokers.ngsi_v2}}<br>
+      <strong>- Version:</strong> Orion
     </td>
   </tr>
   <tr>
