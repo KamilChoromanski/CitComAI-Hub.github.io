@@ -102,11 +102,9 @@ Provide a list of the key stakeholders and partners involved in the TEF Site. In
 
 ## Contact Information
 
-Provide contact details for those responsible for the TEF Site or who can provide more information to collaborators or users.
-
-- **Site Coordinator**: [Name and contact details]
-- **Technical Support**: [Name and contact details]
-- **General Inquiries**: [Name and contact details]
+- **Site Coordinator**: Luca Mottola <luca.mottola@polimi.it>
+- **Technical Support**: Andrea Maioli <andrea1.maioli@polimi.it>
+- **General Inquiries**: Alberto Celani <alberto.celani@polimi.it>
 
 ## Additional Information
 
