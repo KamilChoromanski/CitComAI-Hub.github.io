@@ -94,31 +94,15 @@ Describe the relevant datasets available at the site
 
 ## Key Stakeholders and Partners
 
-Provide a list of the key stakeholders and partners involved in the TEF Site. Include any academic institutions, industry collaborators, and other stakeholders.
-
-- **Stakeholder 1**: [Name and description of the stakeholder, e.g., university, research institute, industry partner]
-- **Stakeholder 2**: [Description]
-- **Stakeholder 3**: [Description]
+- **Euromilano**: real estate development and consulting company, established in Milan in 1986. The company specializes in forward-thinking urban regeneration and sustainable building projects, collaborating with governments, investors, and corporate partners to create secure, green, and socially engaging spaces that prioritize quality and functionality.
+- **Yes Milano, Promos Milano, Chamber of Commerce**: Milano FDI ecosystem that is working on the promotion and Foreign Direct Investments attraction in Milano and Lombardia Region together with the Regional Government. The industrial ecosystem integration will be a key success factor for CitCom.AI in terms of Companies involved into TEF’s activity. 
+- **Ministero delle Infrastrutture (MIT)**: the Italian Infrastrcutre Ministry. They are keen to support CitCom.AI as part of a wider vision on digitalization of the italian nation, thanks to the cooperation with members of European Parliament and Italian Parliament who endorsed the CitCom.AI mission. Several support services has been provided such as assistance on State Aid rules, open to all the members of the CitCom.AI consortium.
 
 ## Contact Information
 
 - **Site Coordinator**: Luca Mottola <luca.mottola@polimi.it>
 - **Technical Support**: Andrea Maioli <andrea1.maioli@polimi.it>
 - **General Inquiries**: Alberto Celani <alberto.celani@polimi.it>
-
-## Additional Information
-
-Any other relevant information that might be useful to collaborators or developers working with the TEF Site, such as specific protocols, access instructions, or unique capabilities.
-
-Example:
-The TEF Site offers unique capabilities in [specific field], and it is open to collaboration with other EU projects in the area of [related field].
-
-## Documentation and Resources
-
-Link to any relevant documentation or resources, such as technical specifications, API documentation, or guides for using services at the TEF Site.
-
-- [Documentation Link 1](#)
-- [Documentation Link 2](#)
 
 ---
 
