@@ -4,19 +4,36 @@ title: Milano
 
 ## Overview
 
-_Provide a brief overview of the TEF Site, including its location, objectives, and role within the CitCom.ai ecosystem. Describe any relevant background information that stakeholders might find helpful._
+The Milano TEF site belongs to the south supernode. It includes two key locations: the UpTown District from Euromilano and the Olympic Village from Covivio.
+Both areas sit at the heart of major urban regeneration projects, where public and private stakeholders work together to deliver new buildings that blend housing, commercial, and recreational facilities to improve quality of life and promote environmental sustainability.
+The UpTown District rises in the Cascina Merlata area of Milano, the former Expo 20215 venue. It is a modern neighborhood that hosts over 15,000 residents, with housing and services integrated into the urban fabric.
+One of Milano's largest parks surrounds the area, offering 300,000 square meters of green space rich in biodiversity.
+The Olympic Village is taking shape in Porta Romana, a central district of Milano. It will host athletes during the 2026 Winter Olympic Games before being repurposed for student housing and public use.
+These two sites offer a unique opportunity: test advanced AI in the city's heart. From automated monitoring and predictive maintenance to energy optimization, urban planning, and biodiversity tracking, the UpTown District and Olympic Village serve as real-world labs for intelligent facility management at the metropolitan scale.
 
-Example:
+Politecnico di Milano, Italy's top-ranking technical university, leads the site through the joint work of two departments: DEIB, focused on electronics and information technology, and ABC, focused on architecture, built environment, and construction engineering.
+Two key partners ensure a direct connection with the urban landscape. Euromilano, a real estate developer specializing in urban regeneration, manages the UpTown testing areas, providing practical integration of AI solutions in real estate and infrastructure projects.
+Covivio contributes expertise in sustainable urban development and innovative facility management.
 
-The [TEF Site Name] is located in [City, Country] and is dedicated to advancing research and development in [relevant domain]. This site is equipped with state-of-the-art infrastructure and is a key site in the CitCom.ai project, facilitating collaboration between cities and comunities, industrial partners (AI innovators) and research institutions.
+The Milano TEF site is part of the CitCom.ai project. It features state-of-the-art infrastructure, facilitating collaboration between cities and communities, industrial partners, and research institutions and bringing AI innovation into everyday urban operations.
+By combining AI-driven sensor networks, facility automation, and edge/cloud computing solutions, the Milano TEF enables real-world validation of AI technologies, unlocking long-term regeneration projects, boosting sustainability, improving quality of life, and strengthening collaboration between academia, industry, and public stakeholders.
 
 ## Services Offered
 
-List the services available at the TEF Site related to the CitCom.ai Services Catalog. Provide a brief description of each service, and include any relevant links or documentation.
+### IT Services
+- **Embedded AI/IoT Sofware Design and Development**: design and development of embedded AI/IoT software for sensing, computing, and communication; including hardware-specific customization. Not necessarily customer-facing.
+- **Networking IoT Devices**: design and deployment of low-power wireless sensing technologies, for example, LoRAWAN, including network planning and operation testing. Not necessarily customer-facing.
+- **Edge and Cloud Deployment**: design and development of edge and cloud software, possibly including concrete operation on Politecnico's data center, enabling efficient and large-scale execution of AI processing. Not necessarily customer-facing.
+- **Time Series Storage and Sharing**: storage and sharing of temporal data from client-specified or public sources, enabling accesses on time series datasets.
+- **FIWARE Big Data Processing**: deployment of our FIWARE custom component that enables aggregation and computation of custom metrics based on big data collected from sensors.
+- **Large-scale Distributed Sensing**: design and deployment of large scale distributed sensing facilities, accounting for requirements of the deployment locations where specific sampling may be necessary.
+- **Bare-metal Compute**: deployment and access to a bare-metal computing infrastructure hosted in Politecnico di Milano, which provides full control on infrastructure configuration, components, and offers various customization options.
 
-- **Service 1**: [Description of Service 1]
-- **Service 2**: [Description of Service 2]
-- **Service 3**: [Description of Service 3]
+### Facility Management Services
+- **Integration of Facilities in Terms of Management**: creation of a framework for tender documents, which includes a comprehensive needs analysis developed using the Kano model to help define priorities for public administrations, asset owners, building managers, and facility managers. The framework supports the preparation of tenders for the integrated management of building facilities and neighborhoods. By unifying facilities under a single tender, it enables more efficient service delivery and better coordination across different operational areas.
+- **Global service approach**: creation of a detailed inventory of all services provided by the project’s creators and providers, grouping them into services for individuals, businesses, and buildings or neighborhoods. This structured mapping unlocks the identification of the services that align best with the needs of key clients such as Facility Management companies, Asset Management firms, Property companies, Utility providers, and Municipalities.
+- **Feasibility of the implementation of a service for the Italian market**: study of the legal and technical, feasibility of implementing client's services designed and tested abroad for the Italian market. This enables the creation of a framework for local testing and certification path, if required. The service will be provided considering the time-cost-quality triangle.
+- **Market Attractiveness Study of Services for the Italian Market**: study of the commercial and market viability of the client's services for the local Italian market.
 
 ## Infrastructure Components
 
