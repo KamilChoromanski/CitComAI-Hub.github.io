@@ -12,11 +12,30 @@ Center Denmark provides secure and structured data infrastructure that supports 
 
 ## Services Offered
 
-List the services available at the TEF Site related to the CitCom.ai Services Catalog. Provide a brief description of each service, and include any relevant links or documentation.
+The following services provided by Center Denmark as part of the CitCom.ai ecosystem are focused on enabling **secure, structured, and value-driven access to utility data**. Whether for collaboration between utilities and service providers, academic research, or early-stage experimentation, the services make it possible to work with real-world data from electricity, water, heating, gas, and PtX – all compliant with GDPR and tailored to different needs.
 
-- **Service 1**: [Description of Service 1]
-- **Service 2**: [Description of Service 2]
-- **Service 3**: [Description of Service 3]
+### Service 1: Access to Utility Data for Co-developed Digital Services  
+This service supports collaboration between utility companies and service providers by granting access to structured and enriched utility data. The data is typically used for AI and analytics purposes such as forecasting, predictive maintenance, or grid planning.  
+Center Denmark manages the entire data process – from collection and cleansing to enrichment and delivery – ensuring high data quality and full GDPR compliance.
+
+📄 Documentation: *Link to documentation will be inserted later*
+
+---
+
+### Service 2: Build-Your-Own Utility Dataset  
+This modular service enables data consumers (e.g. researchers, startups) to configure and request customized datasets based on available utility data.  
+Users select a base dataset (electricity, water, heating) and can combine it with open data sources such as weather data, building information (BBR), electricity spot prices, or demographic data. The final dataset is delivered at the desired processing level (e.g. anonymised or pseudonymised), and pricing depends on the complexity and scope of the request.
+
+📄 Documentation: *Link to documentation will be inserted later*
+
+---
+
+### Service 3: Open Utility Datasets  
+This service provides free access to pre-approved, anonymised datasets via Center Denmark’s data portal.  
+It is designed for early-stage experimentation, prototyping, education, and exploratory analysis. The datasets are ready to use and can be combined with publicly available data sources such as weather and building data, without any need for customization.
+
+📄 Documentation: *Link to documentation will be inserted later*
+
 
 ## Infrastructure Components
 
