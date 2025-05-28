@@ -86,13 +86,24 @@ Provide a high-level overview of the architecture of the TEF Site, including the
 
 ![center_denmark_arch-ds4sscc](./img/center_denmark_ds4sscc-arch.svg)
 
-## Relevant datasets of the site
+## Available Data Sources
 
-Describe the relevant datasets available at the site
+Since Center Denmark builds customised datasets based on specific needs, there are no predefined or fixed datasets available.  
+Instead, the platform provides access to a wide range of **trusted data sources** from both utilities and public registers. These sources can be combined and processed to create datasets tailored to individual use cases – whether for AI training, research, forecasting, or infrastructure planning.  
 
-- **Dataset_1**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
-- **Dataset_2**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
-- **Dataset_3**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
+The full overview of available data sources and formats can be explored at [**portal.centerdenmark.com**](https://portal.centerdenmark.com).
+
+| **Category**           | **Examples**                                     | **Description**                                                                 |
+|------------------------|--------------------------------------------------|---------------------------------------------------------------------------------|
+| **Utility data**       | Electricity, water, heating, gas, PtX            | Consumption and production data from utility partners                          |
+| **Grid topology**      | Electricity grids, district heating networks     | Aggregated network structures where permitted                                  |
+| **Weather data**       | DMI, local weather stations                      | Temperature, wind speed/direction, solar radiation                             |
+| **Building data**      | BBR (Building and Dwelling Register)             | Building type, energy label, heating system, floor area                        |
+| **Price data**         | Nord Pool spot prices                            | Hourly electricity market prices                                               |
+| **Geospatial references** | DAR, GIS layers                              | Geographical mapping and address-based enrichment                              |
+| **Demographic data**   | Statistics Denmark                               | Population, household types, income levels (when permitted and relevant)       |
+
+> All data is processed in compliance with GDPR and access is granted based on appropriate legal agreements with data owners.
 
 ## Key Stakeholders and Partners
 
