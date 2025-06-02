@@ -163,6 +163,7 @@ plugins:
       background: white
       shadow: true
       manual: false
+  - swagger-ui-tag
 extra:
   generator: false
   labels:
