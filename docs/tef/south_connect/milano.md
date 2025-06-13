@@ -75,7 +75,12 @@ Milano TEF site uses the following technologies:
 
 ### Architecture
 
-Provide a high-level overview of the architecture of the TEF Site, including the key components and technologies used. Include any relevant diagrams or visualizations to help stakeholders understand the infrastructure.
+Milano TEF infrastructure enables seamless integration and real-time processing of IoT data across multiple urban deployment sites located in Italy.
+A large variety of sensors deployed in areas such as Cascina Merlata, Porta Romana, and the Mithraeum of Rome transmit data using heterogeneous communication protocols (MQTT, ZenoH, and LoRaWAN via The Things Network).
+Data incoming from our site locations is unified by corresponding FIWARE IoT Agents and delivered to a central FIWARE Context Broker, which represents the central data exchange location of our infrastructure.
+
+Our infrastructure supports reliable data storage (InfluxDB, MongoDB), continuous analytics and data aggregation using our custom streaming component (EsperTech), and access through Traefik and authentication layers.
+Finally, visualization and analysis tools (Grafana, Spark, Node-RED, Snap4City) enable real-time monitoring of our infrastructure and allows end users to extract insight on environmental conditions, urban infrastructure usage, and system health.
 
 ![milano_arch](./img/milano-arch.png)
 
