@@ -37,14 +37,15 @@ By combining AI-driven sensor networks, facility automation, and edge/cloud comp
 
 ## Infrastructure Components
 
-Describe the key infrastructure components available at the TEF Site, including data platforms, local digital twins, specific hardware, IoT platforms, or any other relevant technologies.
+Milano TEF site uses the following technologies:
 
-- **Data Platforms**: [Description of the data platforms available]
-- **Local Digital Twins**: [Details about any local digital twin infrastructure]
-- **Specific Hardware**: [Details about specialized hardware available, such as sensors, servers, etc.]
-- **IoT Platforms**: [Information about IoT systems or platforms in use at the site]
-- **Visualization platforms**: [Information about large scale visualisation components]
-- **Other**: [Any other relevant infrastructure to showcase]
+- **Data visualization**: Grafana, Apache2 webserver with custom web pages
+- **Data transmission and interconnection**: MQTT, The Things Network (LoRaWAN), FIWARE
+- **Data processing and automations**: NodeRED, Apache Spark
+- **Database**: InfluxDB, MySQL/MariaDB, MongoDB
+- **AI Tools**: Tensorflow, PyTorch 
+- **Virtualization**: Proxmox, Docker
+- **Specific Hardware**: Raspberry PIs, bare-metal servers, customized sensors hardware
 
 <table>
   <tr>
