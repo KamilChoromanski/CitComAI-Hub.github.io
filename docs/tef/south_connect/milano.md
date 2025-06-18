@@ -37,14 +37,15 @@ By combining AI-driven sensor networks, facility automation, and edge/cloud comp
 
 ## Infrastructure Components
 
-Describe the key infrastructure components available at the TEF Site, including data platforms, local digital twins, specific hardware, IoT platforms, or any other relevant technologies.
+Milano TEF site uses the following technologies:
 
-- **Data Platforms**: [Description of the data platforms available]
-- **Local Digital Twins**: [Details about any local digital twin infrastructure]
-- **Specific Hardware**: [Details about specialized hardware available, such as sensors, servers, etc.]
-- **IoT Platforms**: [Information about IoT systems or platforms in use at the site]
-- **Visualization platforms**: [Information about large scale visualisation components]
-- **Other**: [Any other relevant infrastructure to showcase]
+- **Data visualization**: Grafana, Apache2 webserver with custom web pages
+- **Data transmission and interconnection**: MQTT, The Things Network (LoRaWAN), FIWARE
+- **Data processing and automations**: NodeRED, Apache Spark
+- **Database**: InfluxDB, MySQL/MariaDB, MongoDB
+- **AI Tools**: Tensorflow, PyTorch 
+- **Virtualization**: Proxmox, Docker
+- **Specific Hardware**: Raspberry PIs, bare-metal servers, customized sensors hardware
 
 <table>
   <tr>
@@ -74,7 +75,11 @@ Describe the key infrastructure components available at the TEF Site, including 
 
 ### Architecture
 
-Provide a high-level overview of the architecture of the TEF Site, including the key components and technologies used. Include any relevant diagrams or visualizations to help stakeholders understand the infrastructure.
+Milano TEF infrastructure enables seamless integration and real-time processing of IoT data across multiple urban deployment sites located in Italy.
+The sensors deployed in Cascina Merlata, Porta Romana, and the Mithraeum of Rome transmit data using heterogeneous communication protocols (MQTT, ZenoH, and LoRaWAN via The Things Network).
+Data incoming from our site locations is unified by corresponding FIWARE IoT Agents and delivered to a central FIWARE Context Broker, representing our infrastructure's central data exchange location.
+Our infrastructure supports reliable data storage (InfluxDB, MongoDB), continuous analytics, data aggregation using our custom streaming component (EsperTech), and access through Traefik and authentication layers.
+Finally, visualization and analysis tools (Grafana, Spark, Node-RED, Snap4City) enable real-time monitoring of our infrastructure and allow end users to extract environmental conditions insights, urban infrastructure usage, and system health.
 
 ![milano_arch](./img/milano-arch.png)
 
