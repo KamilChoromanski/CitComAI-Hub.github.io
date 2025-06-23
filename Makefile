@@ -10,6 +10,7 @@ PYTHON := python3
 .PHONY: virtenv_create
 ## Create virtualenv
 virtenv_create:
+	@python3 -c "import virtualenv" >/dev/null 2>&1 || pip install virtualenv
 	python3 -m virtualenv $(VENV_NAME)
 	source $(VENV_NAME)/bin/activate && pip install -r requirements.txt
 
