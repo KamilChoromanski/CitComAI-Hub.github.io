@@ -74,8 +74,6 @@ Describe the key infrastructure components available at the TEF Site, including 
 
 Provide a high-level overview of the architecture of the TEF Site, including the key components and technologies used. Include any relevant diagrams or visualizations to help stakeholders understand the infrastructure.
 
-![brussels_arch](./img/brussels-arch.png)
-
 ### European Data Space for Smart Communities (DS4SSCC)
 <!-- 
 {{ config.extra.labels.ds4ssc_compliant.yes_comp.data_sources }} {{ config.extra.labels.ds4ssc_compliant.yes_comp.data_broker }} {{ config.extra.labels.ds4ssc_compliant.yes_comp.data_api }} {{ config.extra.labels.ds4ssc_compliant.no_comp.data_idm_auth }} {{ config.extra.labels.ds4ssc_compliant.no_comp.data_publication }}

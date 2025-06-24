@@ -4,19 +4,38 @@ title: Center Denmark
 
 ## Overview
 
-_Provide a brief overview of the TEF Site, including its location, objectives, and role within the CitCom.ai ecosystem. Describe any relevant background information that stakeholders might find helpful._
+Center Denmark is located in Fredericia, Denmark, and serves as a national hub for digitalization across the utility sector. As a TEF Site in the CitCom.ai project, Center Denmark focuses on enabling AI-driven innovation by providing access to high-quality, real-world data from electricity, water, and heating systems (including gas and PtX where relevant).
 
-Example:
+Center Denmark provides secure and structured data infrastructure that supports collaboration between utilities, AI innovators, and researchers. The site plays a central role in bridging the gap between data availability and AI application by making validated utility datasets accessible for development, testing, and scaling of smart solutions that support the green transition.
 
-The [TEF Site Name] is located in [City, Country] and is dedicated to advancing research and development in [relevant domain]. This site is equipped with state-of-the-art infrastructure and is a key site in the CitCom.ai project, facilitating collaboration between cities and comunities, industrial partners (AI innovators) and research institutions.
+**In short:** Center Denmark provides access to high-quality utility data through a dedicated **data portal**, offering both **downloadable datasets** and **API-based access** – ready for use in **AI, analytics, and research**.
 
 ## Services Offered
 
-List the services available at the TEF Site related to the CitCom.ai Services Catalog. Provide a brief description of each service, and include any relevant links or documentation.
+The following services provided by Center Denmark as part of the CitCom.ai ecosystem are focused on enabling **secure, structured, and value-driven access to utility data**. Whether for collaboration between utilities and service providers, academic research, or early-stage experimentation, the services make it possible to work with real-world data from electricity, water, heating, gas, and PtX – all compliant with GDPR and tailored to different needs.
 
-- **Service 1**: [Description of Service 1]
-- **Service 2**: [Description of Service 2]
-- **Service 3**: [Description of Service 3]
+### Service 1: Access to Utility Data for Co-developed Digital Services  
+This service supports collaboration between utility companies and service providers by granting access to structured and enriched utility data. The data is typically used for AI and analytics purposes such as forecasting, predictive maintenance, or grid planning.  
+Center Denmark manages the entire data process – from collection and cleansing to enrichment and delivery – ensuring high data quality and full GDPR compliance.
+
+📄 Documentation: *Link to documentation will be inserted later*
+
+---
+
+### Service 2: Build-Your-Own Utility Dataset  
+This modular service enables data consumers (e.g. researchers, startups) to configure and request customized datasets based on available utility data.  
+Users select a base dataset (electricity, water, heating) and can combine it with open data sources such as weather data, building information (BBR), electricity spot prices, or demographic data. The final dataset is delivered at the desired processing level (e.g. anonymised or pseudonymised), and pricing depends on the complexity and scope of the request.
+
+📄 Documentation: *Link to documentation will be inserted later*
+
+---
+
+### Service 3: Open Utility Datasets  
+This service provides free access to pre-approved, anonymised datasets via Center Denmark’s data portal.  
+It is designed for early-stage experimentation, prototyping, education, and exploratory analysis. The datasets are ready to use and can be combined with publicly available data sources such as weather and building data, without any need for customization.
+
+📄 Documentation: *Link to documentation will be inserted later*
+
 
 ## Infrastructure Components
 
@@ -67,13 +86,24 @@ Provide a high-level overview of the architecture of the TEF Site, including the
 
 ![center_denmark_arch-ds4sscc](./img/center_denmark_ds4sscc-arch.svg)
 
-## Relevant datasets of the site
+## Available Data Sources
 
-Describe the relevant datasets available at the site
+Since Center Denmark builds customised datasets based on specific needs, there are no predefined or fixed datasets available.  
+Instead, the platform provides access to a wide range of **trusted data sources** from both utilities and public registers. These sources can be combined and processed to create datasets tailored to individual use cases – whether for AI training, research, forecasting, or infrastructure planning.  
 
-- **Dataset_1**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
-- **Dataset_2**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
-- **Dataset_3**: [Description of the data set and link to Data Catalog: eg https://citcomai-hub.github.io/data_catalog/metadata_datasets/south_spain_valencia/]
+The full overview of available data sources and formats can be explored at [**portal.centerdenmark.com**](https://portal.centerdenmark.com).
+
+| **Category**           | **Examples**                                     | **Description**                                                                 |
+|------------------------|--------------------------------------------------|---------------------------------------------------------------------------------|
+| **Utility data**       | Electricity, water, heating, gas, PtX            | Consumption and production data from utility partners                          |
+| **Grid topology**      | Electricity grids, district heating networks     | Aggregated network structures where permitted                                  |
+| **Weather data**       | DMI, local weather stations                      | Temperature, wind speed/direction, solar radiation                             |
+| **Building data**      | BBR (Building and Dwelling Register)             | Building type, energy label, heating system, floor area                        |
+| **Price data**         | Nord Pool spot prices                            | Hourly electricity market prices                                               |
+| **Geospatial references** | DAR, GIS layers                              | Geographical mapping and address-based enrichment                              |
+| **Demographic data**   | Statistics Denmark                               | Population, household types, income levels (when permitted and relevant)       |
+
+> All data is processed in compliance with GDPR and access is granted based on appropriate legal agreements with data owners.
 
 ## Key Stakeholders and Partners
 
