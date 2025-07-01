@@ -31,7 +31,7 @@
 | firmware_version               | Text   |           | Current firmware version                    |
 | state                          | Text   |           | Reported high-level state of the device     |
 | activity_state                 | Text   |           | Current activity state (e.g., active, idle) |
-| device_temperature             | Number | Â°C          | Internal device temperature                 |
+| device_temperature             | Number | °C          | Internal device temperature                 |
 | battery_voltage                | Number | V            | Battery voltage                             |
 | battery_level                  | Number | %            | Battery charge level                        |
 | battery_power_input            | Text   |           | Raw battery input power data                |
