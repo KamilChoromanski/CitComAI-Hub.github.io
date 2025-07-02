@@ -8,11 +8,11 @@ Center Denmark is located in Fredericia, Denmark, and serves as a national hub f
 
 Center Denmark provides secure and structured data infrastructure that supports collaboration between utilities, AI innovators, and researchers. The site plays a central role in bridging the gap between data availability and AI application by making validated utility datasets accessible for development, testing, and scaling of smart solutions that support the green transition.
 
-**In short:** Center Denmark provides access to high-quality utility data through a dedicated **data portal**, offering both **downloadable datasets** and **API-based access** – ready for use in **AI, analytics, and research**.
+In short: Center Denmark provides access to high-quality utility data through a dedicated data portal, offering both downloadable datasets and API-based access – ready for use in AI, analytics, and research.
 
 ## Services Offered
 
-The following services provided by Center Denmark as part of the CitCom.ai ecosystem are focused on enabling **secure, structured, and value-driven access to utility data**. Whether for collaboration between utilities and service providers, academic research, or early-stage experimentation, the services make it possible to work with real-world data from electricity, water, heating, gas, and PtX – all compliant with GDPR and tailored to different needs.
+The following services provided by Center Denmark as part of the CitCom.ai ecosystem are focused on enabling secure, structured, and value-driven access to utility data. Whether for collaboration between utilities and service providers, academic research, or early-stage experimentation, the services make it possible to work with real-world data from electricity, water, heating, gas, and PtX – all compliant with GDPR and tailored to different needs.
 
 ### Service 1: Access to Utility Data for Co-developed Digital Services  
 This service supports collaboration between utility companies and service providers by granting access to structured and enriched utility data. The data is typically used for AI and analytics purposes such as forecasting, predictive maintenance, or grid planning.  
@@ -105,35 +105,25 @@ The full overview of available data sources and formats can be explored at [**po
 
 > All data is processed in compliance with GDPR and access is granted based on appropriate legal agreements with data owners.
 
-## Key Stakeholders and Partners
-
-Provide a list of the key stakeholders and partners involved in the TEF Site. Include any academic institutions, industry collaborators, and other stakeholders.
-
-- **Stakeholder 1**: [Name and description of the stakeholder, e.g., university, research institute, industry partner]
-- **Stakeholder 2**: [Description]
-- **Stakeholder 3**: [Description]
-
 ## Contact Information
 
-Provide contact details for those responsible for the TEF Site or who can provide more information to collaborators or users.
+For any inquiries or collaboration opportunities related to the TEF Site at Center Denmark, please contact the relevant team member:
 
-- **Site Coordinator**: [Name and contact details]
-- **Technical Support**: [Name and contact details]
-- **General Inquiries**: [Name and contact details]
+- **Site Coordinator**  
+  **Britt Reenberg**  
+  Head of PMO  
+  📧 brir@centerdenmark.com
 
-## Additional Information
+- **Technical Support**  
+  **Thomas Thue Sørensen**  
+  Senior Data Engineer  
+  📧 thomas.soerensen@centerdenmark.com
 
-Any other relevant information that might be useful to collaborators or developers working with the TEF Site, such as specific protocols, access instructions, or unique capabilities.
+- **General Inquiries**  
+  **Andreas Okkels O. Thomsen**  
+  Senior Business Developer  
+  📧 andreas.thomsen@centerdenmark.com
 
-Example:
-The TEF Site offers unique capabilities in [specific field], and it is open to collaboration with other EU projects in the area of [related field].
-
-## Documentation and Resources
-
-Link to any relevant documentation or resources, such as technical specifications, API documentation, or guides for using services at the TEF Site.
-
-- [Documentation Link 1](#)
-- [Documentation Link 2](#)
 
 ---
 
