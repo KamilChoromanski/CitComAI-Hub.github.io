@@ -60,3 +60,4 @@ The data catalog is a centralized hub to keep track of available datasets. It is
 |  [Biodiversity](./metadata_datasets/south_italy_uptown.md)  | South | Italy | UpTown | *no specific value* | 15m | Yes | Politecnico di Milano | [neslab.it](https://www.neslab.it) |
 |  [Energy distribution](./metadata_datasets/south_italy_uptown.md)  | South | Italy | UpTown | *no specific value* | Hourly | Yes | A2A | [neslab.it](https://www.neslab.it) |
 |  [Archaeological Site](./metadata_datasets/south_italy_mithraeum-of-circus-maximus.md)  | South | Italy | Mithraeum of Circus Maximus | *no specific value* | Real-time | Yes | Politecnico di Milano | [neslab.it](https://www.neslab.it) |
+|  [District Heating Data](metadata_datasets/north_center denmark_center denmark.md)  | North | Center Denmark | Center Denmark | Smart Data Models | Daily | Yes, 2 years | Center Denmark | [portal.centerdenmark.com](https://portal.centerdenmark.com) |
