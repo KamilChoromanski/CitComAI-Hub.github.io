@@ -54,6 +54,7 @@ nav:
             - dataspace/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_registry.md
       - dataspace/vc_issuer.md
       - dataspace/connector.md
+      - dataspace/aws_deployment.md
   - Guides:
       - documentation/index.md
       - Data Federation:
