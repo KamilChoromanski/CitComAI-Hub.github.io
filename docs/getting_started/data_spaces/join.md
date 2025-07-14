@@ -1,10 +1,6 @@
 # Join a Data Space
 
-!!! Info
-
-    CitCom.ai uses data spaces based on [FIWARE technology](https://github.com/FIWARE/data-space-connector/tree/main).
-
-The initial adoption of the FIWARE Data Space connector (DSC) within the CitCom.ai project is a strategic decision that aligns with the [Data Space Business Alliance](https://data-spaces-business-alliance.eu/) (DSBA) recommendations, ensuring a robust and interoperable framework for data exchange across Testing and Experimentation Facilities (TEFs). The FIWARE DSC is recognized for its compliance with open standards and ability to facilitate secure, efficient data sharing between diverse platforms and ecosystems.
+The FIWARE DSC is recognized for its compliance with open standards and ability to facilitate secure, efficient data sharing between diverse platforms and ecosystems.
 
 To access to a data space, you mainly need: 
 
