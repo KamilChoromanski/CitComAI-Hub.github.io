@@ -42,36 +42,37 @@ nav:
       - data_catalog/instructions.md
   - MV Data Space:
       - dataspace/index.md
-      - Trust Frameworks:
-        - dataspace/trust_frameworks/index.md
-        - Gaia-X:
-            - dataspace/trust_frameworks/gaiax_clearing_house/index.md
-        - iShare: 
-            - dataspace/trust_frameworks/ishare/index.md
-        - Fiware Trust Anchor:
-            - dataspace/trust_frameworks/fiware_trust_anchor/index.md
-            - dataspace/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_list.md
-            - dataspace/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_registry.md
       - dataspace/vc_issuer.md
-      - dataspace/connector.md
+      # - documentation/trust_frameworks/index.md
+      # - documentation/data_space_connectors/index.md
       - dataspace/aws_deployment.md
   - Guides:
       - documentation/index.md
-      - Data Federation:
-          - documentation/data_federation/index.md
-          # - NGSI-LD to NGSI-LD:
-          #   - documentation/data_federation/ngsild_to_ld/index.md
-          - NGSI-v2 to NGSI-LD:
-              # - documentation/data_federation/ngsiv2_to_ld/index.md
-              - Lepus: documentation/data_federation/ngsiv2_to_ld/lepus.md
-              - FIWARE IoT-Agent: documentation/data_federation/ngsiv2_to_ld/iot_agent.md
-        # - Custom brokers:
-        #   - documentation/data_federation/custom/index.md
+      - Trust Frameworks:
+        - documentation/trust_frameworks/index.md
+        - Gaia-X:
+            - documentation/trust_frameworks/gaiax_clearing_house/index.md
+        - iShare: 
+            - documentation/trust_frameworks/ishare/index.md
+        - Fiware Trust Anchor:
+            - documentation/trust_frameworks/fiware_trust_anchor/index.md
+            - documentation/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_list.md
+            - documentation/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_registry.md
       - Data Space Connectors:
           - documentation/data_space_connectors/index.md
           - Eclipse: documentation/data_space_connectors/eclipse/index.md
           - Fiware: 
               - documentation/data_space_connectors/fiware/index.md
+      - Data Federation:
+        - documentation/data_federation/index.md
+        # - NGSI-LD to NGSI-LD:
+        #   - documentation/data_federation/ngsild_to_ld/index.md
+        - NGSI-v2 to NGSI-LD:
+            # - documentation/data_federation/ngsiv2_to_ld/index.md
+            - Lepus: documentation/data_federation/ngsiv2_to_ld/lepus.md
+            - FIWARE IoT-Agent: documentation/data_federation/ngsiv2_to_ld/iot_agent.md
+      # - Custom brokers:
+      #   - documentation/data_federation/custom/index.md
   - AI services:
       - services/index.md
       - Minimal Interoperable AI Service: services/waste_collection.md

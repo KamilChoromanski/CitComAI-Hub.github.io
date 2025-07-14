@@ -15,6 +15,14 @@ Following this MVDS approach, an initial experiment is proposed between differen
 
 <div class="grid cards" markdown>
 
+-   :material-rocket-outline:{ .lg .middle } __Trust Frameworks__
+
+    ---
+
+    _Set of policies, principles, and mechanisms that establish and maintain trust among participants in a data space ecosystem._
+
+    [:octicons-arrow-right-24: Learn more](../documentation/trust_frameworks/index.md)
+
 -   :material-rocket-outline:{ .lg .middle } __Verifier Credential Issuer__
 
     ---
@@ -23,20 +31,12 @@ Following this MVDS approach, an initial experiment is proposed between differen
 
     [:octicons-arrow-right-24: Learn more](./vc_issuer.md)
 
--   :material-rocket-outline:{ .lg .middle } __Trust Frameworks__
-
-    ---
-
-    _Set of policies, principles, and mechanisms that establish and maintain trust among participants in a data space ecosystem._
-
-    [:octicons-arrow-right-24: Learn more](./trust_frameworks/index.md)
-
 -   :material-rocket-outline:{ .lg .middle } __Connector__
 
     ---
 
-    _description_
+    _Technical component that enables the secure and controlled exchange of data between organisations within a data space._
 
-    [:octicons-arrow-right-24: Learn more](./connector.md)
+    [:octicons-arrow-right-24: Learn more](../documentation/data_space_connectors/index.md)
 
 </div>
