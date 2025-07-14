@@ -27,7 +27,7 @@ Following this MVDS approach, an initial experiment is proposed between differen
 
     ---
 
-    _description_
+    _Set of policies, principles, and mechanisms that establish and maintain trust among participants in a data space ecosystem._
 
     [:octicons-arrow-right-24: Learn more](./trust_frameworks/index.md)
 
