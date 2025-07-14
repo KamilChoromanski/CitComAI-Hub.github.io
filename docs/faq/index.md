@@ -15,7 +15,7 @@ title: Frequently Asked Questions (FAQ)
 
 ??? question "What types of elements can I add to Markdown?"
 
-    This website uses pure Markdown as well as the plugin [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You can find all the information about the available references [here](https://squidfunk.github.io/mkdocs-material/reference/)."
+    This website uses pure Markdown as well as the plugin [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You can find all the information about the available references [here](https://squidfunk.github.io/mkdocs-material/reference/).
 
 
 ??? question "What icons can I use?"
