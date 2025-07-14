@@ -12,7 +12,7 @@ Interoperability is a key aspect of CitCom.ai’s approach to ensuring that data
 For a comprehensive explanation and additional context, please refer to the original [IDS documentation on Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3.-functional_requirements/3.11-interoperability_in_data_spaces).
 
 ## MIMs
-[MIMs](https://mims.oascities.org/) stands for "Minimal Interoperability Mechanisms". These guidelines and standards were developed by the [Open & Agile Smart Cities (OASC)](https://oascities.org/) initiative to promote **interoperability** among different city systems and technologies, such as traffic management systems, waste management systems, and energy distribution systems. CitCom.ai project **embraces minimal interoperability mechanisms (MIMs)** as part of its approach. 
+[MIMs](https://mims.oascities.org/NzWXOO1Fttw4wtqv1Wys/) stands for "Minimal Interoperability Mechanisms". These guidelines and standards were developed by the [Open & Agile Smart Cities (OASC)](https://oascities.org/) initiative to promote **interoperability** among different city systems and technologies, such as traffic management systems, waste management systems, and energy distribution systems. CitCom.ai project **embraces minimal interoperability mechanisms (MIMs)** as part of its approach. 
 
 ## Interoperability levels
 Interoperability in data spaces defines how diverse systems can seamlessly exchange, interpret, and use data. Interoperability can be conceptualized as a maturity model with three levels:
@@ -42,4 +42,4 @@ This unified interface simplifies plug-and-play integration and ensures that all
 
 !!! Tip "Learn more about this"
 
-    Check [Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3.-functional_requirements/3.11-interoperability_in_data_spaces) section from IDSA. Also check [MIMs Toolkit](./../toolbox/mims_toolkit.md) section or [OASC MIMs 2024](https://mims.oascities.org/) for more details.
+    Check [Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3.-functional_requirements/3.11-interoperability_in_data_spaces) section from IDSA. Also check [MIMs Toolkit](./../toolbox/mims_toolkit.md) section or [OASC MIMs 2024](https://mims.oascities.org/NzWXOO1Fttw4wtqv1Wys/) for more details.
