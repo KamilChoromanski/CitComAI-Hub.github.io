@@ -50,14 +50,9 @@ nav:
       - documentation/index.md
       - Trust Frameworks:
         - documentation/trust_frameworks/index.md
-        - Gaia-X:
-            - documentation/trust_frameworks/gaiax_clearing_house/index.md
-        - iShare: 
-            - documentation/trust_frameworks/ishare/index.md
         - Fiware Trust Anchor:
-            - documentation/trust_frameworks/fiware_trust_anchor/index.md
-            - documentation/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_list.md
-            - documentation/trust_frameworks/fiware_trust_anchor/api_trusted_issuers_registry.md
+            - documentation/trust_frameworks/fiware_trust_anchor/details.md
+            - documentation/trust_frameworks/fiware_trust_anchor/deployment.md
       - Data Space Connectors:
           - documentation/data_space_connectors/index.md
           - Eclipse: documentation/data_space_connectors/eclipse/index.md

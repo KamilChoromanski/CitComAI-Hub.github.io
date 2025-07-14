@@ -16,7 +16,7 @@ A _trust framework_ is a set of policies, principles, and mechanisms that establ
 
     [:octicons-arrow-right-24: Official Documentation](https://github.com/FIWARE/trusted-issuers-list/blob/main/README.md)
     
-    [:octicons-arrow-right-24: _APIs details_](./fiware_trust_anchor/index.md)
+    [:octicons-arrow-right-24: _More Details_](./fiware_trust_anchor/details.md)
 
     [:octicons-arrow-right-24: _Deployment_](./fiware_trust_anchor/deployment.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Fiware Trust Anchor Deployment
+title: Deployment
 ---
 
 The Trust Anchor provides the basic trust infrastructure for the data space. It is usually the first component to be deployed if you are setting up a data space from scratch. If you are joining an existing dataspace, this step should be skipped as you will use the trust anchor of the dataspace you want to join.
