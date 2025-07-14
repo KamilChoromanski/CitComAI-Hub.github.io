@@ -6,7 +6,11 @@ These are the instructions to deploy a Data Space from scratch with Fiware techn
 
 ## Minimal Viable Data Space
 
-The minimal viable data space is composed of a Trust Anchor and a Data Space Connector.
+A Minimum Viable Data Space (MVDS) is a basic configuration of a data space that includes only the essential components required (*Trust Framework* and *Connector*) to ensure interoperability and enable the secure and sovereign exchange of information between organisations. Its minimal approach aims to reduce initial complexity, support technological adoption, and provide a way to test the ecosystem’s functionality before scaling to more comprehensive solutions.
+
+This type of data space serves as a testing environment that facilitates the validation of data exchange models and a gradual migration from existing systems. Thanks to its streamlined structure, the MVDS is especially well-suited for demonstrations, pilots, or early implementation stages in collaborative settings where data sharing is expected to be trustworthy and controlled.
+
+Following the interoperability levels (0, 1 and 2; section [Interoperability Levels](../interoperability.md#interoperability-levels)), the MVDS aims to provide the minimal set of tools required to progress from interoperability level 1 to level 2.
 
 ### FIWARE Data Space Connector
 
