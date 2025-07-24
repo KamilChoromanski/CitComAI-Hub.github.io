@@ -42,7 +42,7 @@ nav:
       - documentation/index.md
       - Verifier Credentials:
           - documentation/verifier_credentials/index.md
-          - Keycloak Hands-On Config: documentation/verifier_credentials/keycloak/index.md
+          - Hands-On Configuration: documentation/verifier_credentials/keycloak/index.md
       - Trust Frameworks:
         - documentation/trust_frameworks/index.md
         - Fiware: documentation/trust_frameworks/fiware_trust_anchor/index.md
