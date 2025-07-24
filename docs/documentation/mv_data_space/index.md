@@ -96,3 +96,50 @@ Below you'll find deployment instructions for each component in our Minimum Viab
     [:octicons-arrow-right-24: _Technical Details_](../trust_frameworks/fiware_trust_anchor/index.md)
 
 </div>
+
+## Cleanup
+
+### Per-Role Cleanup
+
+**Trust Anchor:**
+```bash
+export TRUST_ANCHOR_INSTANCE_ID="i-xxxxxxxxx"
+export TRUST_ANCHOR_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+
+helm uninstall trust-anchor
+aws ec2 terminate-instances --instance-ids $TRUST_ANCHOR_INSTANCE_ID --region $AWS_REGION
+aws ec2 release-address --allocation-id $TRUST_ANCHOR_ALLOCATION_ID --region $AWS_REGION
+aws ec2 delete-security-group --group-name trust-anchor-sg --region $AWS_REGION
+```
+
+**Consumer:**
+```bash
+export CONSUMER_INSTANCE_ID="i-xxxxxxxxx"
+export CONSUMER_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+
+helm uninstall consumer-dsc -n consumer
+kubectl delete namespace consumer
+aws ec2 terminate-instances --instance-ids $CONSUMER_INSTANCE_ID --region $AWS_REGION
+aws ec2 release-address --allocation-id $CONSUMER_ALLOCATION_ID --region $AWS_REGION
+aws ec2 delete-security-group --group-name consumer-sg --region $AWS_REGION
+```
+
+**Provider:**
+```bash
+export PROVIDER_INSTANCE_ID="i-xxxxxxxxx"
+export PROVIDER_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+
+helm uninstall provider-dsc -n provider
+kubectl delete namespace provider
+aws ec2 terminate-instances --instance-ids $PROVIDER_INSTANCE_ID --region $AWS_REGION
+aws ec2 release-address --allocation-id $PROVIDER_ALLOCATION_ID --region $AWS_REGION
+aws ec2 delete-security-group --group-name provider-sg --region $AWS_REGION
+```
+
+## Background Information
+
+### nip.io Service
+nip.io is a free wildcard DNS service that converts subdomains like `service.1.2.3.4.nip.io` into A records pointing to `1.2.3.4`. This eliminates the need for custom DNS configuration during development.
+
+### Architecture
+Each role runs on its own EC2 instance with a dedicated k3s Kubernetes cluster. The Ingress Controller in each cluster routes traffic based on hostnames to the appropriate internal services.
