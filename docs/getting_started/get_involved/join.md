@@ -81,6 +81,22 @@ The Data Space Connector (DSC) is a software component that is responsible for m
 
 ## Data Federation
 
-The Data Federation is a more complex scenario where multiple Data Spaces or data platform are federated to share data. Depending on the technology used, the federation process can be different.
+The Data Federation is a more complex scenario where multiple Data Spaces or data platform are federated to share data. Depending on the technology used, the federation process can be different. [Reference](../../documentation/data_federation/index.md)
 
-[Reference](../../documentation/data_federation/index.md)
+## Verifiable Credentials management
+
+The Verifiable Credentials (VCs) management is a crucial aspect of the data space, as it ensures that all participants are authenticated and authorized to access resources. The management of VCs is typically handled by an Identity Management system, such as Keycloak.
+
+<div class="grid cards" markdown>
+
+-   :material-cog-outline:{ .lg .middle } __Keycloak Configuration__
+
+    ---
+
+    The Keycloak Configuration is responsible for managing the authentication and authorization of users and services in the data space. This configuration is crucial for issuing Verifiable Credentials.
+
+    [:octicons-arrow-right-24: _About Keycloak_](../../documentation/verifier_credentials/index.md#identity-management-keycloak)
+
+    [:octicons-arrow-right-24: _Hands-On Configuration_](../../documentation/verifier_credentials/keycloak/index.md)
+
+</div>
