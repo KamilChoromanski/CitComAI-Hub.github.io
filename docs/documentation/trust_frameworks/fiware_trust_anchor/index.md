@@ -1,8 +1,8 @@
 ---
-title: Details
+title: Technical Details
 ---
 
-## Fiware Trust Anchor
+## Technical Details
 
 The **Trusted-Issuers-List Service** provides an [EBSI-Trusted Issuers Registry](https://hub.ebsi.eu/apis/pilot/trusted-issuers-registry/v4) implementation to act as the Trusted-List-Service in the DSBA Trust and IAM Framework. In addition, a Trusted Issuers List API to manage the issuers is provided.
 

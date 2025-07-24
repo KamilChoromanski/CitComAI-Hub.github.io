@@ -16,9 +16,9 @@ A _trust framework_ is a set of policies, principles, and mechanisms that establ
 
     [:octicons-arrow-right-24: Official Documentation](https://github.com/FIWARE/trusted-issuers-list/blob/main/README.md)
     
-    [:octicons-arrow-right-24: _More Details_](./fiware_trust_anchor/details.md)
+    [:octicons-arrow-right-24: _More Details_](./fiware_trust_anchor/index.md)
 
-    [:octicons-arrow-right-24: _Deployment_](./fiware_trust_anchor/deployment.md)
+    [:octicons-arrow-right-24: _Deployment_](../mv_data_space/fiware/trust_anchor.md)
 
 -   :material-rocket-outline:{ .lg .middle } __Gaia-X Digital Clearing House (GXDCH)__
 
