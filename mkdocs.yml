@@ -22,8 +22,6 @@ theme:
     - navigation.sections
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.progress
   palette:
     primary: black
 nav:
@@ -34,25 +32,21 @@ nav:
       - Interoperability: getting_started/interoperability.md
       - Data spaces:
           - getting_started/data_spaces/index.md
-          - Join one: getting_started/data_spaces/join.md
-          - Deploy one: getting_started/data_spaces/deployment.md
-      - Get involved: getting_started/get_involved.md
+      - Get involved: 
+        - getting_started/get_involved/index.md
+        - Join the Data Space: getting_started/get_involved/join.md
   - Data catalog:
       - data_catalog/index.md
       - data_catalog/instructions.md
-  - MV Data Space:
-      - dataspace/index.md
-      - dataspace/vc_issuer.md
-      # - documentation/trust_frameworks/index.md
-      # - documentation/data_space_connectors/index.md
-      - dataspace/aws_deployment.md
   - Guides:
       - documentation/index.md
+      - Verifier Credentials:
+          - documentation/verifier_credentials/index.md
+          - Issuer: documentation/verifier_credentials/issuer.md
+          - Keycloak Configuration: documentation/verifier_credentials/keycloak/index.md
       - Trust Frameworks:
         - documentation/trust_frameworks/index.md
-        - Fiware Trust Anchor:
-            - documentation/trust_frameworks/fiware_trust_anchor/details.md
-            - documentation/trust_frameworks/fiware_trust_anchor/deployment.md
+        - Fiware: documentation/trust_frameworks/fiware_trust_anchor/index.md
       - Data Space Connectors:
           - documentation/data_space_connectors/index.md
           - Eclipse: documentation/data_space_connectors/eclipse/index.md
@@ -66,8 +60,12 @@ nav:
             # - documentation/data_federation/ngsiv2_to_ld/index.md
             - Lepus: documentation/data_federation/ngsiv2_to_ld/lepus.md
             - FIWARE IoT-Agent: documentation/data_federation/ngsiv2_to_ld/iot_agent.md
-      # - Custom brokers:
-      #   - documentation/data_federation/custom/index.md
+      - MV Data Space:
+          - Fiware:
+              - documentation/mv_data_space/fiware/trust_anchor.md
+              - documentation/mv_data_space/fiware/consumer.md
+              - documentation/mv_data_space/fiware/provider.md
+          - documentation/mv_data_space/index.md
   - AI services:
       - services/index.md
       - Minimal Interoperable AI Service: services/waste_collection.md
