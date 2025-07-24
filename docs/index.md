@@ -62,14 +62,6 @@ body > div.md-container > main > div > div > article > a{
 
     [:octicons-arrow-right-24: Learn more](./data_catalog/index.md)
 
--   :material-store-search-outline:{ .lg .middle } __Data Space__
-
-    ---
-
-    Citcom.ai Data Space toolbox.
-
-    [:octicons-arrow-right-24: Learn more](./dataspace/index.md)
-
 -   :material-toolbox-outline:{ .lg .middle } __Toolbox__
 
     ---
