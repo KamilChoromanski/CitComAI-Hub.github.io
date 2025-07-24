@@ -76,16 +76,6 @@ Users are the entities or members of your organization that will authenticate ag
 - Roles assigned to them.
 - Attributes and metadata.
 
-### Configuration & Management
+### Configuration
 
-<div class="grid cards" markdown>
-
--   :material-rocket-outline:{ .lg .middle } __Configuration__
-
-    ---
-
-    _Keycloak details configuration._
-
-    [:octicons-arrow-right-24: _Deployment_](./keycloak/index.md)
-
-</div>
+To configure Keycloak for issuing Verifiable Credentials, follow these steps: [Hands-On Configuration](./keycloak/index.md).
