@@ -52,7 +52,7 @@ aws ec2 authorize-security-group-ingress \
   --cidr 0.0.0.0/0 \
   --region $AWS_REGION
 ```
-!!! warning
+!!! warning "Important"
     Note the security group ID returned by the create command.
 
 ### Step 2: Launch Trust Anchor Instance
@@ -72,7 +72,7 @@ aws ec2 run-instances \
   --region $AWS_REGION
 ```
 
-!!! warning
+!!! warning "Important"
     Note the instance ID returned by this command.
 
 ### Step 3: Assign Elastic IP
