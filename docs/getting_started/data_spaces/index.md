@@ -49,3 +49,5 @@ At the bottom of the figure, we see the data platforms that exist in many cities
 Data spaces are currently being created to counter this siloed EU data landscape. Multiple data space initiatives at local, national and EU level are currently underway. These data spaces will be contributed to by the CitCom.ai TEF sites and leveraged by the AI and robotics solutions that will be brought to the TEF sites by CitCom.ai customers. The solutions will connect to the data spaces through the principles of the Minimal Interoperability Mechanisms (MIMs). 
 
 In addition to leveraging existing and emerging data space initiatives, **CitCom.ai will also deploy its own experimental data space environment**. This tailored infrastructure will interconnect as many project sites as possible, enabling the seamless exchange of data across diverse platforms. By simulating real-world interoperability scenarios, it will serve as a living lab where AI and robotics solutions can be tested in a multi-site setup, ensuring that interoperability and compliance with Minimal Interoperability Mechanisms (MIMs) are validated and enhanced in practice.
+
+![fiware_mvds_arch](./img/mvds_arch.svg)
