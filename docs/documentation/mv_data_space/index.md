@@ -97,44 +97,45 @@ Below you'll find deployment instructions for each component in our Minimum Viab
 
 </div>
 
-## Cleanup
+## Per-Role Cleanup
 
-### Per-Role Cleanup
+??? tip "Trust Anchor"
 
-**Trust Anchor:**
-```bash
-export TRUST_ANCHOR_INSTANCE_ID="i-xxxxxxxxx"
-export TRUST_ANCHOR_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+    ```bash
+    export TRUST_ANCHOR_INSTANCE_ID="i-xxxxxxxxx"
+    export TRUST_ANCHOR_ALLOCATION_ID="eipalloc-xxxxxxxxx"
 
-helm uninstall trust-anchor
-aws ec2 terminate-instances --instance-ids $TRUST_ANCHOR_INSTANCE_ID --region $AWS_REGION
-aws ec2 release-address --allocation-id $TRUST_ANCHOR_ALLOCATION_ID --region $AWS_REGION
-aws ec2 delete-security-group --group-name trust-anchor-sg --region $AWS_REGION
-```
+    helm uninstall trust-anchor
+    aws ec2 terminate-instances --instance-ids $TRUST_ANCHOR_INSTANCE_ID --region $AWS_REGION
+    aws ec2 release-address --allocation-id $TRUST_ANCHOR_ALLOCATION_ID --region $AWS_REGION
+    aws ec2 delete-security-group --group-name trust-anchor-sg --region $AWS_REGION
+    ```
 
-**Consumer:**
-```bash
-export CONSUMER_INSTANCE_ID="i-xxxxxxxxx"
-export CONSUMER_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+??? tip "Consumer"
 
-helm uninstall consumer-dsc -n consumer
-kubectl delete namespace consumer
-aws ec2 terminate-instances --instance-ids $CONSUMER_INSTANCE_ID --region $AWS_REGION
-aws ec2 release-address --allocation-id $CONSUMER_ALLOCATION_ID --region $AWS_REGION
-aws ec2 delete-security-group --group-name consumer-sg --region $AWS_REGION
-```
+    ```bash
+    export CONSUMER_INSTANCE_ID="i-xxxxxxxxx"
+    export CONSUMER_ALLOCATION_ID="eipalloc-xxxxxxxxx"
 
-**Provider:**
-```bash
-export PROVIDER_INSTANCE_ID="i-xxxxxxxxx"
-export PROVIDER_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+    helm uninstall consumer-dsc -n consumer
+    kubectl delete namespace consumer
+    aws ec2 terminate-instances --instance-ids $CONSUMER_INSTANCE_ID --region $AWS_REGION
+    aws ec2 release-address --allocation-id $CONSUMER_ALLOCATION_ID --region $AWS_REGION
+    aws ec2 delete-security-group --group-name consumer-sg --region $AWS_REGION
+    ```
 
-helm uninstall provider-dsc -n provider
-kubectl delete namespace provider
-aws ec2 terminate-instances --instance-ids $PROVIDER_INSTANCE_ID --region $AWS_REGION
-aws ec2 release-address --allocation-id $PROVIDER_ALLOCATION_ID --region $AWS_REGION
-aws ec2 delete-security-group --group-name provider-sg --region $AWS_REGION
-```
+??? tip "Provider"
+
+    ```bash
+    export PROVIDER_INSTANCE_ID="i-xxxxxxxxx"
+    export PROVIDER_ALLOCATION_ID="eipalloc-xxxxxxxxx"
+
+    helm uninstall provider-dsc -n provider
+    kubectl delete namespace provider
+    aws ec2 terminate-instances --instance-ids $PROVIDER_INSTANCE_ID --region $AWS_REGION
+    aws ec2 release-address --allocation-id $PROVIDER_ALLOCATION_ID --region $AWS_REGION
+    aws ec2 delete-security-group --group-name provider-sg --region $AWS_REGION
+    ```
 
 ## Background Information
 
