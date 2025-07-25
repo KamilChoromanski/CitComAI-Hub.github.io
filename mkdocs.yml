@@ -40,9 +40,9 @@ nav:
       - data_catalog/instructions.md
   - Guides:
       - documentation/index.md
-      - Verifier Credentials:
-          - documentation/verifier_credentials/index.md
-          - Hands-On Configuration: documentation/verifier_credentials/keycloak/index.md
+      - Verifiable Credentials:
+          - documentation/verifiable_credentials/index.md
+          - Hands-On Configuration: documentation/verifiable_credentials/keycloak/index.md
       - Trust Frameworks:
         - documentation/trust_frameworks/index.md
         - Fiware: documentation/trust_frameworks/fiware_trust_anchor/index.md
@@ -53,10 +53,7 @@ nav:
               - documentation/data_space_connectors/fiware/index.md
       - Data Federation:
         - documentation/data_federation/index.md
-        # - NGSI-LD to NGSI-LD:
-        #   - documentation/data_federation/ngsild_to_ld/index.md
         - NGSI-v2 to NGSI-LD:
-            # - documentation/data_federation/ngsiv2_to_ld/index.md
             - Lepus: documentation/data_federation/ngsiv2_to_ld/lepus.md
             - FIWARE IoT-Agent: documentation/data_federation/ngsiv2_to_ld/iot_agent.md
       - MV Data Space:
