@@ -25,7 +25,7 @@ The VC Issuer is a component that issues Verifiable Credentials (VCs) to entitie
 
     _Verifiable Credential details configuration._
 
-    [:octicons-arrow-right-24: _More info_](../../documentation/verifier_credentials/index.md#verifier-credential-issuer)
+    [:octicons-arrow-right-24: _More info_](../../documentation/verifiable_credentials/index.md#verifier-credential-issuer)
 
 </div>
 
@@ -95,8 +95,8 @@ The Verifiable Credentials (VCs) management is a crucial aspect of the data spac
 
     The Keycloak Configuration is responsible for managing the authentication and authorization of users and services in the data space. This configuration is crucial for issuing Verifiable Credentials.
 
-    [:octicons-arrow-right-24: _About Keycloak_](../../documentation/verifier_credentials/index.md#identity-management-keycloak)
+    [:octicons-arrow-right-24: _About Keycloak_](../../documentation/verifiable_credentials/index.md#identity-management-keycloak)
 
-    [:octicons-arrow-right-24: _Hands-On Configuration_](../../documentation/verifier_credentials/keycloak/index.md)
+    [:octicons-arrow-right-24: _Hands-On Configuration_](../../documentation/verifiable_credentials/keycloak/index.md)
 
 </div>
