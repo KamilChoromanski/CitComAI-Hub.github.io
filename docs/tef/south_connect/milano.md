@@ -93,10 +93,10 @@ Finally, visualization and analysis tools (Grafana, Spark, Node-RED, Snap4City) 
 
 Milano TEF site offers the following datasets:
 
-- **[Air quality](/data_catalog/metadata_datasets/south_italy_uptown/)**: air quality readings from sensors deployed across the Milano area, reporting temperature, humidity, and pollutant levels along with time and location.
-- **[Biodiversity](/data_catalog/metadata_datasets/south_italy_uptown/)**: data from biodiversity sensors deployed in UpTown, reporting device status, energy levels, and bird species detections over time.
-- **[Energy distribution](/data_catalog/metadata_datasets/south_italy_uptown/)**: data from heating systems deployed in UpTown, reporting energy use, fluid temperatures, and heating power.
-- **[Archaeological site](/data_catalog/metadata_datasets/south_italy_mithraeum-of-circus-maximus/)**: environmental data from sensors deployed in an underground archaeological site, reporting air quality, temperature, humidity, and vibration levels over time.
+- **[Air quality](../../data_catalog/metadata_datasets/south_italy_uptown.md/#site-uptown-airquality)**: air quality readings from sensors deployed across the Milano area, reporting temperature, humidity, and pollutant levels along with time and location.
+- **[Biodiversity](../../data_catalog/metadata_datasets/south_italy_uptown.md/#site-uptown-biodiversity)**: data from biodiversity sensors deployed in UpTown, reporting device status, energy levels, and bird species detections over time.
+- **[Energy distribution](../../data_catalog/metadata_datasets/south_italy_uptown.md/#site-uptown-energy-distribution)**: data from heating systems deployed in UpTown, reporting energy use, fluid temperatures, and heating power.
+- **[Archaeological site](../../data_catalog/metadata_datasets/south_italy_mithraeum-of-circus-maximus.md/#site-mithraeum-of-circus-maximus-archaeological-site)**: environmental data from sensors deployed in an underground archaeological site, reporting air quality, temperature, humidity, and vibration levels over time.
 
 ## Key Stakeholders and Partners
 

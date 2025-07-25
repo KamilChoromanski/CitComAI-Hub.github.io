@@ -46,22 +46,6 @@ body > div.md-container > main > div > div > article > a{
 
     [:octicons-arrow-right-24: Learn more](./tef/index.md)
 
--   :material-toolbox-outline:{ .lg .middle } __Toolbox__
-
-    ---
-
-    A set of useful tools compatible with MIMs.
-
-    [:octicons-arrow-right-24: Learn more](./toolbox/index.md)
-
--   :material-robot-outline:{ .lg .middle } __AI Services__
-
-    ---
-
-    Minimal interoperable AI services for platforms compatible with MIMs.
-
-    [:octicons-arrow-right-24: Learn more](./services/index.md)
-
 -   :material-file-document-outline:{ .lg .middle } __Documentation__
 
     ---
@@ -78,4 +62,19 @@ body > div.md-container > main > div > div > article > a{
 
     [:octicons-arrow-right-24: Learn more](./data_catalog/index.md)
 
+-   :material-toolbox-outline:{ .lg .middle } __Toolbox__
+
+    ---
+
+    A set of useful tools compatible with MIMs.
+
+    [:octicons-arrow-right-24: Learn more](./toolbox/index.md)
+
+-   :material-robot-outline:{ .lg .middle } __AI Services__
+
+    ---
+
+    Minimal interoperable AI services for platforms compatible with MIMs.
+
+    [:octicons-arrow-right-24: Learn more](./services/index.md)
 </div>

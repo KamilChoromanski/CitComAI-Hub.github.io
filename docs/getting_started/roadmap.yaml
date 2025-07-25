@@ -4,7 +4,7 @@
   icon: ":material-hub-outline:"
 - title: "[Data Spaces](data_spaces/index.md)"
   icon: ":material-database-outline:"
-- title: "[Get involved](./get_involved.md)"
+- title: "[Get involved](./get_involved/index.md)"
   icon: ":material-handshake:"
 - title: "[AI Services](../services/index.md)"
   icon: ":material-robot-outline:"

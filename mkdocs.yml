@@ -22,8 +22,6 @@ theme:
     - navigation.sections
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.progress
   palette:
     primary: black
 nav:
@@ -34,29 +32,36 @@ nav:
       - Interoperability: getting_started/interoperability.md
       - Data spaces:
           - getting_started/data_spaces/index.md
-          - Join one: getting_started/data_spaces/join.md
-          - Deploy one: getting_started/data_spaces/deployment.md
-      - Get involved: getting_started/get_involved.md
+      - Get involved: 
+        - getting_started/get_involved/index.md
+        - Join the Data Space: getting_started/get_involved/join.md
   - Data catalog:
       - data_catalog/index.md
       - data_catalog/instructions.md
   - Guides:
       - documentation/index.md
-      - Data Federation:
-          - documentation/data_federation/index.md
-          # - NGSI-LD to NGSI-LD:
-          #   - documentation/data_federation/ngsild_to_ld/index.md
-          - NGSI-v2 to NGSI-LD:
-              # - documentation/data_federation/ngsiv2_to_ld/index.md
-              - Lepus: documentation/data_federation/ngsiv2_to_ld/lepus.md
-              - FIWARE IoT-Agent: documentation/data_federation/ngsiv2_to_ld/iot_agent.md
-        # - Custom brokers:
-        #   - documentation/data_federation/custom/index.md
+      - Verifiable Credentials:
+          - documentation/verifiable_credentials/index.md
+          - Hands-On Configuration: documentation/verifiable_credentials/keycloak/index.md
+      - Trust Frameworks:
+        - documentation/trust_frameworks/index.md
+        - Fiware: documentation/trust_frameworks/fiware_trust_anchor/index.md
       - Data Space Connectors:
           - documentation/data_space_connectors/index.md
           - Eclipse: documentation/data_space_connectors/eclipse/index.md
           - Fiware: 
               - documentation/data_space_connectors/fiware/index.md
+      - Data Federation:
+        - documentation/data_federation/index.md
+        - NGSI-v2 to NGSI-LD:
+            - Lepus: documentation/data_federation/ngsiv2_to_ld/lepus.md
+            - FIWARE IoT-Agent: documentation/data_federation/ngsiv2_to_ld/iot_agent.md
+      - MV Data Space:
+          - Fiware:
+              - documentation/mv_data_space/fiware/trust_anchor.md
+              - documentation/mv_data_space/fiware/consumer.md
+              - documentation/mv_data_space/fiware/provider.md
+          - documentation/mv_data_space/index.md
   - AI services:
       - services/index.md
       - Minimal Interoperable AI Service: services/waste_collection.md
@@ -85,6 +90,7 @@ nav:
   - Toolbox:
       - toolbox/index.md
       - AI Toolkit: toolbox/ai_toolkit.md
+      - AI Logging Monitor: toolbox/ai_logging_monitor.md
       - MIMs Toolkit: toolbox/mims_toolkit.md
       - Other Tools: toolbox/other_toolkit.md
   - FAQ:
@@ -149,6 +155,7 @@ plugins:
       background: white
       shadow: true
       manual: false
+  - swagger-ui-tag
 extra:
   generator: false
   labels:

@@ -3,25 +3,22 @@ Interoperability is a key aspect of CitCom.ai’s approach to ensuring that data
 
 ## IDSA Documentation
 
-- **Key Layers:**  
-  The IDS documentation emphasizes four primary layers—**technical**, **semantic**, **organizational**, and **legal**—that collectively underpin effective interoperability.
+- **Key Layers:** The IDS documentation emphasizes four primary layers—**technical**, **semantic**, **organizational**, and **legal**—that collectively underpin effective interoperability.
 
-- **Intra Data Space Interoperability:**  
-  Within a single Data Space, a unified governance framework ensures that all participants adhere to the same protocols and models.
+- **Intra Data Space Interoperability:** Within a single Data Space, a unified governance framework ensures that all participants adhere to the same protocols and models.
 
-- **Cross-Data Space Interoperability:**  
-  When operating across multiple Data Spaces, additional coordination is required to bridge varying protocols and legal frameworks.
+- **Cross-Data Space Interoperability:** When operating across multiple Data Spaces, additional coordination is required to bridge varying protocols and legal frameworks.
 
-For a comprehensive explanation and additional context, please refer to the original [IDS documentation on Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3_interoperability).
+For a comprehensive explanation and additional context, please refer to the original [IDS documentation on Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3.-functional_requirements/3.11-interoperability_in_data_spaces).
 
 ## MIMs
-[MIMs](https://mims.oascities.org/) stands for "Minimal Interoperability Mechanisms". These guidelines and standards were developed by the [Open & Agile Smart Cities (OASC)](https://oascities.org/) initiative to promote **interoperability** among different city systems and technologies, such as traffic management systems, waste management systems, and energy distribution systems. CitCom.ai project **embraces minimal interoperability mechanisms (MIMs)** as part of its approach. 
+[MIMs](https://mims.oascities.org/NzWXOO1Fttw4wtqv1Wys/) stands for "Minimal Interoperability Mechanisms". These guidelines and standards were developed by the [Open & Agile Smart Cities (OASC)](https://oascities.org/) initiative to promote **interoperability** among different city systems and technologies, such as traffic management systems, waste management systems, and energy distribution systems. CitCom.ai project **embraces minimal interoperability mechanisms (MIMs)** as part of its approach. 
 
 ## Interoperability levels
 Interoperability in data spaces defines how diverse systems can seamlessly exchange, interpret, and use data. Interoperability can be conceptualized as a maturity model with three levels:
 
 ### Level 0 - Custom Integration
-At Level 0, no standard exists for data exchange. Each system is integrated via wholly customized solutions. This results in interfaces that are highly specific to each data platform. Although functional, such integration is often brittle and difficult to scale because it lacks a common vocabulary or consistent protocols. The absence of shared standards limits the potential for cross-organizational data reuse.
+At Level 0, **no standard exists for data exchange**. Each system is integrated via wholly customized solutions. This results in interfaces that are highly specific to each data platform. Although functional, such integration is often brittle and difficult to scale because it lacks a common vocabulary or consistent protocols. The absence of shared standards limits the potential for cross-organizational data reuse.
 
 ### Level 1 - Pivotal Interoperability Points
 At Level 1, the focus shifts to identifying and adopting pivotal interoperability points among different data platforms. Key mechanisms such as **MIM1 NGSI-LD** and **MIM2 Smart Data Models** serve as the foundational standards at this stage.
@@ -45,4 +42,4 @@ This unified interface simplifies plug-and-play integration and ensures that all
 
 !!! Tip "Learn more about this"
 
-    Check [Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3_interoperability) section from IDSA. Also check [MIMs Toolkit](./../toolbox/mims_toolkit.md) section or [OASC MIMs 2024](https://mims.oascities.org/) for more details.
+    Check [Interoperability in Data Spaces](https://docs.internationaldataspaces.org/ids-knowledgebase/idsa-rulebook/idsa-rulebook/3.-functional_requirements/3.11-interoperability_in_data_spaces) section from IDSA. Also check [MIMs Toolkit](./../toolbox/mims_toolkit.md) section or [OASC MIMs 2024](https://mims.oascities.org/NzWXOO1Fttw4wtqv1Wys/) for more details.
