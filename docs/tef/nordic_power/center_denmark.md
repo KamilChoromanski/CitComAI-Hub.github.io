@@ -14,6 +14,19 @@ In short: Center Denmark provides access to high-quality utility data through a 
 
 The following services provided by Center Denmark as part of the CitCom.ai ecosystem are focused on enabling secure, structured, and value-driven access to utility data. Whether for collaboration between utilities and service providers, academic research, or early-stage experimentation, the services make it possible to work with real-world data from electricity, water, heating, gas, and PtX – all compliant with GDPR and tailored to different needs.
 
+### Available Services and Example Datasets
+
+Center Denmark builds customised datasets based on specific needs and can also provide predefined datasets for common use cases.  
+To create tailored datasets, the platform combines a wide range of **trusted data sources** from utilities and public registers, ensuring they are structured, cleaned, and ready for use in AI training, research, forecasting, or infrastructure planning.
+
+In addition to customised datasets, Center Denmark offers predefined datasets representing some of the most frequently requested data domains:
+
+- **District Heating Data** – time-series consumption and production data, typically aggregated to daily values.  
+- **Water Data** – metered water consumption datasets, supporting both operational and analytical applications.  
+- **Electricity Data** – household or aggregated consumption data, enabling load analysis, forecasting, and optimization use cases.  
+
+A full overview of available data sources and datasets can be explored via [**portal.centerdenmark.com**](https://portal.centerdenmark.com) or in the **Data Catalouge**. 
+
 ### Service 1: Access to Utility Data for Co-developed Digital Services  
 This service supports collaboration between utility companies and service providers by granting access to structured and enriched utility data. The data is typically used for AI and analytics purposes such as forecasting, predictive maintenance, or grid planning.  
 Center Denmark manages the entire data process – from collection and cleansing to enrichment and delivery – ensuring high data quality and full GDPR compliance.
