@@ -39,14 +39,12 @@ It is designed for early-stage experimentation, prototyping, education, and expl
 
 ## Infrastructure Components
 
-Describe the key infrastructure components available at the TEF Site, including data platforms, local digital twins, specific hardware, IoT platforms, or any other relevant technologies.
+* **Data Platforms:** Data is available from Center Denmark’s secure data platform, providing structured, GDPR-compliant datasets from utilities and public sources. Data can be accessed via RESTful APIs or by downloading datasets through the Data Portal (portal.centerdenmark.com).  
+* **Local Digital Twins:** Center Denmark does not deliver a digital twin itself but provides the data infrastructure and standardized interfaces (aligned with Smart Data Models format) that enable third parties to build digital twins on top of the platform.  
+* **Specific Hardware:** No physical sensors or field devices are operated directly by Center Denmark. Data is sourced from utility partners’ smart meters, SCADA/SRO systems, and IoT devices. High-performance compute resources and secure servers are used for data ingestion, processing, and structuring.  
+* **IoT Platforms:** Data streams from IoT sources, such as smart meters, SCADA systems, weather stations, and building sensors, are securely integrated via partner-provided connections and standardized for use on the platform.  
+* **Visualization Platforms:** Visualization is primarily based on open-source tools such as Apache Superset, offering flexible dashboards and analytics. The platform also supports integration with Power BI and other external visualization environments as needed.  
 
-- **Data Platforms**: [Description of the data platforms available]
-- **Local Digital Twins**: [Details about any local digital twin infrastructure]
-- **Specific Hardware**: [Details about specialized hardware available, such as sensors, servers, etc.]
-- **IoT Platforms**: [Information about IoT systems or platforms in use at the site]
-- **Visualization platforms**: [Information about large scale visualisation components]
-- **Other**: [Any other relevant infrastructure to showcase]
 
 <table>
   <tr>
